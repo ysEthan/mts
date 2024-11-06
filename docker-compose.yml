@@ -1,5 +1,9 @@
 services:
   mts:
-    build: .
+    build: 
+      context:.
+      dockerfile: Dockerfile
+      tags:
+        - my-python-app:latest
     volumes:
-      - '.:/app'
+      - '.:/app' 
