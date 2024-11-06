@@ -1,0 +1,5 @@
+services:
+  mts:
+    build: .
+    volumes:
+      - '.:/app'
