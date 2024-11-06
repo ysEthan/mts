@@ -1,9 +1,5 @@
 services:
   mts:
-    build: 
-      context:.
-      dockerfile: Dockerfile
-      tags:
-      - mts:latest
+    build: .
     volumes:
       - '.:/app' 
