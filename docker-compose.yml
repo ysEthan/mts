@@ -4,6 +4,6 @@ services:
       context:.
       dockerfile: Dockerfile
       tags:
-      - mts-app:latest
+      - mts:latest
     volumes:
       - '.:/app' 
